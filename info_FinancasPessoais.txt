@@ -1,0 +1,128 @@
+DONE - Ao buscar o último preço do artigo, verificar se esse artigo já se encontra numa linha anterior (preço mais actual do que na BD)
+DONE - Campos de texto aceitarem aspas " e pelicas ' 
+DONE - Se fez alterações ao editar ou num novo registo, AVISA ao sair da página (quando não está a gravar)
+DONE - Quando a operação falha, dá erro e perde os dados. É chato ter que voltar a inserir tudo outra vez...
+DONE - Dar para organizar (mover com o rato) as linhas para cima e para baixo
+DONE - ver bug em que coloquei a virgula como separado décimal mas não aceitou (no evento BLUR)
+DONE - Ver bug em que quando escreve letra no preco/quantidade, faz duas excepcoes em vez de so uma (quando já editou o numero)
+DONE - Adaptar a Class User.php
+DONE - FIX bug se a sessão expirou, vai para o login e perde os dados do POST (EX: acontece quando estamos a fazer uma nova inserção)
+DONE - Design bonito
+DONE - Página de edição de perfil
+DONE - Páginas de edição de tabelas da BD
+
+- TODO: Ao fazer submit no form data-transaction a página vai para data-transaction.PHP ---- Verificar outros formulários
+
+- Poder juntar dois produtos passando a ser apenas um
+    + alguns produtos estão duplicados (Ex: Pingo doce mudou o nome de alguns produtos e eu criei novos por não saber)
+
+- Associar as várias entidades ("Pingo Doce - Rio Maior" é equivalente a "Pingo Doce - Galhardas") assim como os produtos similares (coca-cola do continente é equivalente a coca-cola do Pingo Doce)
+
+- Estatísticas
+- Orçamentos (Budget)
+- dar para remover uma linha de orçamento
+
+- Gráficos
+    + Budget - http://jumflot.jumware.com/examples/Experimental/Spider.html 
+    + Mobile Touch - http://justindarc.github.io/flot.touch/
+
+- Versão offline
+- Versão mobile
+
+
+
+
+- Sistema de Pagamentos automáticos de Mensalidades e Pontos como no ficheiro Mensalidades.xls
+    + Sistema de pagamentos integrado com um serviço externo e fiável
+    + Implementar sistema de Pontos
+    + Sistema de afiliados (Refferals) convites onde se ganham pontos (que podem ser descontados na mensalidade)
+
+
+- COPY's finais
+    + Inclui conteúdo da Política de Privacidade, Cookies e Regulamento
+    + Exemplo Cookies - http://exameinformatica.sapo.pt/content/article1920169.ece - http://exameinformatica.sapo.pt/content/article1920184.ece
+
+
+- Política de Privacidade e Termos de Serviço
+    + Exemplo Google: http://www.google.pt/intl/pt-PT/policies/terms/regional.html - http://www.google.pt/intl/pt-PT/policies/privacy/
+    + Exemplo Lumosity: http://legal.lumosity.com/terms_of_service - http://legal.lumosity.com/privacy_policy
+
+
+- Estrutura do Site + Mapa do site concluída
+    + todos os links nos menus e afins e uma página com o mapa do site (estrutura em árvore dos links no site)
+    + Pode ser gerado automáticamente
+
+- Tradução dos COPY's finais para Inglês
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMPALTES
+http://www.html5xcss3.com/
+http://chocotemplates.com/
+
+http://preview.chocotemplates.com/retina/html/index.html
+
+http://demo.html5xcss3.com/html5themes/chocotemplates/digy/
+http://demo.html5xcss3.com/html5themes/html5up/verti/
+http://demo.html5xcss3.com/html5themes/chocotemplates/simple/
+
+
+
+LINK ÚTEIS
+Explica as técnicas utilizadas no HTML5 Boilerplate - http://www.1stwebdesigner.com/design/snippets-html5-boilerplate/
+
+Lista várias ferramentas úteis - http://www.greepit.com/
+Várias ferramentas para designers - http://designmodo.com/
+
+Boas imagens para profile image - http://designmodo.com/free-wallpapers/
+Gráficos JS - http://www.chartjs.org/
+Combobox parecida com a que uso - http://nicolasbize.github.com/magicsuggest/
+
+PowerPoint em HTML5 (compatível mobile) - http://flowtime-js.marcolago.com/
+Emails newsletter - http://internations.github.com/antwort/
+
+iPad 3 Retina - http://designmodo.com/design-retina-displays/
+Layout para Mobile - https://github.com/designmodo/Flat-UI
+
+CSS Tools - http://www.cssmatic.com/
+FREE Icons - http://www.iconsdb.com/   &&   http://iconify.it/   &&   http://iconify.info/
+FRR Images - http://fotogrph.com/
+
+Ver o site em vários devices (diferentes tamanhos) - http://www.responsinator.com/
+
+WebFonts - http://html.adobe.com/edge/webfonts/ && http://www.google.com/fonts/
+
+WordCloud - http://www.jasondavies.com/wordcloud/#http%3A%2F%2Fsearch.twitter.com%2Fsearch.json%3Frpp%3D100%26q%3D%7Bword%7D=cloud

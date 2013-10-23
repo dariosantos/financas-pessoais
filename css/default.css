@@ -1,0 +1,59 @@
+footer { margin-bottom: 250px; }
+
+.new_select_option { color: #b81900 !important; }
+.validation_failed { color: red !important; }
+.paid_more { background-color: #E6B0B0 !important; }
+.paid_less { background-color: powderblue !important; }
+#form_feedback { color: red !important; }
+.number { text-align: right; }
+
+.ui-combobox input {
+    min-width: 300px;
+}
+
+#total_amount, input[name="amount"], input[name="price[]"], input[name="quantity[]"], input.sub_total {
+    text-align: right;
+    width: 73px;
+}
+
+#graph_gasto_categoria_ao_longo_ano .graph_holder {
+    width: 75%;
+    height: 300px;
+    vertical-align: top;
+}
+#graph_gasto_categoria_ao_longo_ano .graph_holder, #graph_gasto_categoria_ao_longo_ano .choices_holder {
+    display: inline-block;
+}
+#graph_gasto_categoria_ao_longo_ano .choices_holder input {
+    margin-right: 7px;
+}
+#graph_gasto_categoria_ao_longo_ano .value_tooltip {
+    display: block;
+    border: 1px solid #fed22f;
+    background: khaki;
+    min-width: 50px;
+    min-height: 20px;
+    color: #c77405;
+}
+
+.graph_gasto_diario {
+    width: 100%;
+    height: 300px;
+}
+
+#form_message {
+    color: red;
+}
+
+.transaction_product .sortable_handler {
+    cursor: ns-resize;
+    display: inline-block;
+}
+
+/* BUDGET */
+
+#form_budget .ui-combobox:nth-of-type(1) input, 
+#form_budget .ui-combobox:nth-of-type(3) input{
+    max-width: 110px;
+    min-width: 100px;
+}
